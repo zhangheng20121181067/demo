@@ -1,0 +1,340 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+<meta name="screen-orientation" content="portrait">
+<title>深度诊股</title>
+<link rel="stylesheet" href="src/wtg_qlgmm/css/style.css" >
+<script type="text/javascript" src="src/wtg_qlgmm/js/jquery.js" ></script>
+<script type="text/javascript" src="src/wtg_qlgmm/js/textauto.js"></script>
+    <style>
+        html{
+        font-size: 16px;
+        }
+        .qlmmc31 li p{
+            font-size:1.00rem;
+            line-height: 1.4rem;
+        }
+        .qlmmc31 li:nth-of-type(3) p {
+            font-size:1.00rem;
+        }
+
+
+    </style>
+<script type="text/javascript">
+$(function(){
+
+//var gpze=/^(((002|000|300|600)[\d]{3})|60[\d]{4})/; 
+
+$("#sm1,#sm2,#sm3").click(function(e) {
+    var gpinput=$(this).prev("input").val();
+
+    if(gpinput==""){
+        alert("请输入正确的股票代码")
+        return false;   
+    //}else if(!gpze.test(gpinput)){
+        //alert("股票代码不正确，无法诊断\n请输入6位数的股票代码，以000|002|300|600开头");
+        //return false;
+    }else{
+        $("#tgName").val(gpinput);
+        $('.qltc').fadeIn();
+    }
+});
+
+$('.qltcc .close').click(function(){
+        $('.qltc').fadeOut();
+        $('.pbut').prev('input').val('')
+        $('#tgName').text('');
+    })
+
+})
+</script>
+
+
+</head>
+
+<body>
+<div style="height:0px; width:0px;"><iframe frameborder="0" width="0" height="0" scrolling="no" name="postinframe" marginwidth="0" marginheight="0"></iframe>
+</div>
+<!-- <form action="http://g.1356789.com/Expand/index/addNewUserData" target="postinframe" method="post"> -->
+<div class="qlmmt">
+    <p style="position:absolute;top:0;right:0;font-size:0.6rem;line-height:1rem;color:#fff;">投资有风险 入市需谨慎</p>
+    <img src="src/wtg_qlgmm/images/qlmm_top.jpg" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/qlmm_top.jpg"/>
+    <h3><img src="src/wtg_qlgmm/images/qlmm_t1.png" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/qlmm_t1.png"/></h3>
+    <div class="zzzp">
+        <div class="zzzpc">
+            <img class="zp_1" src="src/wtg_qlgmm/images/qlmm_t2.png" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/qlmm_t2.png"/>
+            <img class="zp_2" src="src/wtg_qlgmm/images/qlmm_t3.png" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/qlmm_t3.png"/>
+            <img class="zp_3" src="src/wtg_qlgmm/images/zhizhen.png" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/zhizhen.png"/>
+        </div>
+    </div>
+    <div class="qltype">
+        <p>专业诊股 锁定买卖时机</p>
+            
+        <input  class="input-stoc " placeholder="请输入股票名称或代码" maxlength="6" name="tel" />
+        <a class="" id="" href="http://cn.mikecrm.com/yEythCg">立即诊断</a>
+        <p>个股操作 一测便知</p>
+
+    </div>
+</div>
+
+<ul class="qlmmc1">
+    <li>
+        <img src="src/wtg_qlgmm/images/qlmm_c11.jpg" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/qlmm_c11.jpg"/>
+        <p>五大维度”精准分析</p>
+        <p>洞悉潜力股票</p>
+    </li>
+    <li>
+        <img src="src/wtg_qlgmm/images/qlmm_c12.jpg" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/qlmm_c12.jpg"/>
+        <p>全天候在线盯盘</p>
+        <p>实时操作解析</p>
+    </li>
+    <li>
+        <img src="src/wtg_qlgmm/images/qlmm_c13.jpg" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/qlmm_c13.jpg"/>
+        <p>第一时间反馈诊股结果</p>
+        <p>并答疑解难</p>
+    </li>
+</ul>
+
+<div class="qlmmc2">
+    <h3>提前洞察潜力股票 精准预测个股<i>盈利能力</i></h3>
+    <p style="font-size:0.75rem;line-height:1.2rem;text-align:center;">基于事件驱动的个股诊断体系   预期收益不等于实际收益</p>
+    <div class="bgt"></div>
+    <div class="qlmmc2c">
+        <div class="c2c_t">
+            <div class="c2c_tl">
+                <h4><i>诊</i>股报告</h4>
+                <p>您查询的个股：</p>
+            </div>
+            <div class="c2c_tr">
+                <p><span>目标价：<i>17.13元</i> </span><span>目标涨幅：<i>90%</i></span></p>
+                <p>
+                    <em>所属板块：银行类</em>
+                    <em>综合评价：中性</em>
+                    <em>投资模型：GARP</em>
+                </p>
+            </div>
+        </div>
+        <div class="c2c_c">
+            <img src="src/wtg_qlgmm/images/qlmm_c2.jpg" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/qlmm_c2.jpg"/>
+            <ul>
+                <li class="l1">
+                    <h4>相对估值<em></em></h4>
+                    <p>估值偏高，投资价值较低</p>
+                </li>
+                <li class="l2">
+                    <h4>主力资金<em></em></h4>
+                    <p>该股近期主力资金流入51514.32万元最近机构持仓减少1.44%</p>
+                </li>
+                <li class="l3">
+                    <h4>盈利动力<em></em></h4>
+                    <p>近期机构预测无明显变动</p>
+                </li>
+                <li class="l4">
+                    <h4>事件驱动<em></em></h4>
+                    <p>近期有新闻、公告、研报发布</p>
+                </li>
+                <li class="l5">
+                    <h4>市场强度<em></em></h4>
+                    <p>个股与大盘持平,近期形态较好</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="qlmmc3">
+    <div class="qlmmc31">
+        <h3>如果您也有这样的<i>烦恼？</i></h3>
+        <ul>
+            <li>
+                <h4><i>买</i>了就<em>跌</em></h4>
+                <img src="src/wtg_qlgmm/images/qlmm_c31.jpg" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/qlmm_c31.jpg"/>
+                <p>该苦等还是割肉？</p>
+            </li>
+            <li>
+                <h4><em>卖</em>了就<i>涨</i></h4>
+                <img src="src/wtg_qlgmm/images/qlmm_c32.jpg" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/qlmm_c32.jpg"/>
+                <p>继续持有还是抛掉？</p>
+            </li>
+            <li>
+                <h4><i>空仓</i>手痒</h4>
+                <img src="src/wtg_qlgmm/images/qlmm_c33.jpg" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/qlmm_c33.jpg"/>
+                <p>现在就买还是继续观望？</p>
+            </li>
+        </ul>
+        <p style="font-size:0.6rem;text-align:right;">（过往业绩不等于实际收益）</p>
+    </div>
+    <div class="qlmmc32">
+        <h3>您需要立即诊断股票！</h3>
+        <span><input class="input-stock"  placeholder="请输入股票名称或代码" maxlength="6"/>
+            <a class="" id="" href="http://cn.mikecrm.com/yEythCg">立即诊断</a></span>
+        <p>免费获取诊断报告 股票涨跌早知道</p>
+    </div>
+</div>
+
+<div class="bbg">
+    <p>交易有风险，入市需谨慎</p>
+    <p>从事证券投资或期货交易，请通过合法证券期货经营机构进行。</p>
+    <p>合法机构名单可到中国证监会网站（www.csrc.gov.cn）查询</p>
+    <p>中国证监会批准具有证券期货投资咨询</p>
+    <p>武汉择天慧成网络科技有限公司 </p>
+</div>
+
+<!--手机号弹窗-->
+<div class="qltc">
+    <div class="bg"></div>
+    <div class="qltca">
+        <div class="qltcc">
+            <a class="close" href="javascript:void(0)"> <img src="src/wtg_qlgmm/images/close_w.png" tppabs="http://www.whypzx.top/src/wtg_qlgmm/images/close_w.png"/></a>
+            <h3>诊股结果</h3>
+
+            <form action="http://www.whypzx.top/index-index.shtml" method="post" onSubmit="return is_tel()">
+            <p class="p1">你所查询的个股是：<input type="text" readonly id="tgName" name="tgName" /></p>
+            <p class="p2">诊股系统编写报告已完成，诊股结果将以短信的形式直接发送到您的手机中，请注意查收！</p>
+            <span>
+                <input type="number" id="number" name="mobile" onBlur='this.value=this.value.replace(/\D/gi,"")'  onKeyUp='this.value=this.value.replace(/\D/gi,"")' placeholder="请输入手机号码" maxlength="11" />
+                <a href="javascript:void(0)" class="but" id="btnTg" ><input type="submit"  id="submit"  value="立即诊股"></a>
+            </span>
+            <p class="p3">接收短信完全免费</p>
+            </form>
+
+        </div>
+    </div>
+</div>
+<input type="submit" value="" id="submit">
+<input type="hidden" name="referer" id="referer">
+<input type="hidden" name="plan" value="百度信息流推广6" id="plan">
+<input type="hidden" name="keyword"  id="keyword">
+<input type="hidden" name="classify_id" value="393" id="classify_id">
+<input type="hidden" name="query_url" id="query_url">
+<!-- </form> -->
+
+<script type="text/javascript">
+    function is_tel(){
+        var tel = $('#number').val();
+        if(checkMobile(tel) == 2){
+            alert('手机号码格式不正确')
+            return false;
+        }
+
+    }
+     //手机
+    function checkMobile(str) {
+        var re = /^1\d{10}$/
+        if (re.test(str)) {
+            return 1;
+        } else {
+            return 2;
+        }
+    }
+  
+</script>
+
+
+<!--
+<script>
+$(function(){
+    $("#btnTg").click(function(){
+        //执行操作
+    });
+  var inputStocks = document.querySelectorAll('.input-stock');
+    [].slice.call(inputStocks).forEach(function(input) {
+      input.onblur = function() {
+        if (this.value) {
+          this.name = "stock"
+        } else {
+          this.name = ""
+        }
+      }
+    });
+});
+
+var EventUtil = {
+    addHandler: function(element,type,handler) {
+        if(element.addEventListener) {
+            element.addEventListener(type,handler,false);
+        }else if(element.attachEvent) {
+            element.attachEvent("on"+type,handler);
+        }else {
+            element["on" +type] = handler;
+        }
+    },
+    stopPropagation: function(event) {
+        if(event.stopPropagation) {
+            event.stopPropagation();
+        }else {
+            event.cancelBubble = true;
+        }
+    },
+};
+window.onload = function(){
+    var referer = document.referrer;
+    var title = document.title;
+    var url = escape(window.location.href);
+    document.querySelector('#referer').value = referer;
+    document.querySelector('#query_url').value = url;
+    /* ----新增 ----*/
+    //获取所有表单元素
+    var form = document.querySelectorAll('form');
+    console.log(form);
+    //把对应的表单元素绑定对应的提交事件
+    for (var i in form) {
+        // 相当于=$('form').submit();
+        EventUtil.addHandler(form[i], 'submit', function (event) {
+            console.log('123');
+            //基于当前表单往下找对应的元素
+            var number = this.querySelector('#number').value;
+            var myreg = /^1(3|4|5|7|8)\d{9}$/;
+            if (!myreg.test(number)){
+                alert('请输入有效的手机号码');
+                EventUtil.stopPropagation(event);
+                return false;
+            }
+
+            //当有需要提交股票
+            /*if (this.querySelector('#stock') != null) {
+                var stock = this.querySelector('#stock').value;
+                var mystock = /^[0|3|6][0-9]{5}$/;
+                if (!mystock.test(stock)){
+                    alert('请输入有效的股票代码');
+                    EventUtil.stopPropagation(event);
+                    return false;
+                }
+            }*/
+            
+            alert('提交成功，请静候客服的回电~.~！');
+        });
+    }
+    /* ----新增 ----*/
+
+    //Gupiao_check();
+};
+</script>
+-->
+
+
+</body>
+</html>
+
+
+<script type="text/javascript">
+    // $('.btn_forom').click(function(){
+    //     $.ajax({
+    //         url:'/index-index.shtml',
+    //         type:'post',
+    //         data:$('.ajax_from').serialize(),
+    //         success: function(data){
+    //             if(data == 1){
+    //                 alert('提交成功，请静候客服的回电')
+    //             }else{
+    //                 alert('提交失败，请重新提交')
+    //             }
+    //         }
+    //     })
+    // })
+
+
+</script>
